@@ -1,7 +1,5 @@
 var RESUME_LOCATION =
-  "https://raw.githubusercontent.com/" +
-  GITHUB_USERNAME +
-  "/portfolio-generator/master/resume.json";
+  "https://raw.githubusercontent.com/AdityaMahaddalkar/AdityaMahaddalkar.github.io/master/resume.json";
 
 var titleOnBlur = "Miss You :(";
 var titleOnActive = "Portfolio";
