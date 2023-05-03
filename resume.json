@@ -1,0 +1,167 @@
+{
+  "displayOrder": [
+    "shortBio",
+    "education",
+    "work",
+    "projects",
+    "awards",
+    "social"
+  ],
+  "personal": {
+    "name": "Aditya Mahaddalkar",
+    "title": "{FrontEnd, BackEnd, Machine Learning} Developer",
+    "image": "",
+    "email": "adityam1311@gmail.com",
+    "phone": "+1 (213) 649-6731",
+    "website": "",
+    "shortBio": "<b>I am Aditya, a software and machine learning developer who brings innovation to life. I'm a master of crafting intelligent algorithms and building intuitive user interfaces that deliver results. With a passion for tackling complex problems and a laser focus on detail, I am always on the cutting edge of the latest technologies and approaches in software and machine learning. When I am not building amazing software, you can find me exploring the great outdoors or cheering on my favorite sports teams.",
+    "location": "Los Angeles",
+    "profiles": [
+
+      {
+        "network": "github",
+        "url": "https://github.com/AdityaMahaddalkar"
+      },
+      {
+        "network": "linkedin",
+        "url": "https://www.linkedin.com/in/aditya-mahaddalkar/"
+      }
+    ]
+  },
+  "work": [{
+      "employer": "Deutsche Bank AG",
+      "location": "Pune, Maharashtra,",
+      "title": "Technology Analyst",
+      "website": "https://www.db.com/",
+      "dates": "Sep 2020 - July 2022",
+      "highlights": [
+        "Developed high-volume data streaming and collation application that processed more than 1 million settlements per week from over 17 branches worldwide",
+        "Designed and built a financial report comparison system to compare 50,000+ data points from multiple sources and generate a comparison report.",
+        "Engineered Settlement Fraud Prediction System to predict the probability of fraudulent transaction using Explainable Machine Learning"
+      ]
+    },
+    {
+      "employer": "BMC Software Inc.",
+      "location": "Pune, Maharashtra",
+      "title": "NLP Research Intern",
+      "website": "https://www.bmc.com/",
+      "dates": "Sep 2019 - Apr 2020",
+      "highlights": [
+        "Analyzed problems faced by non-technical office employees while querying status of 500+ IoT devices from a ElasticSearch database due to knowledge barrier",
+        "Engineered a modular system with Natural Language Processing techniques to convert user queries in English language to ElasticSearch queries and achieved accuracy of over 85% for simple queries, 68% for complex queries with mean time of query resolution of 0.2 seconds."
+      ]
+    },
+    {
+      "employer": "UBS Business Solutions AG",
+      "location": "Pune, Maharashtra",
+      "title": "Software Engineering Intern",
+      "website": "https://www.ubs.com/us/en.html",
+      "dates": "Jun 2019 - Aug 2019",
+      "highlights": [
+        "Constructed an optical character recognition application for document digitization and signature verification using computer vision and deployed it on Microsoft Azure Cloud",
+        "Achieved an accuracy of 95% in document digitization and an accuracy of 88% for valid signature recognition."
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "University of Southern California",
+    "major": "Computer Science",
+    "degree": "Master",
+    "graduationDate": "2024",
+    "gpa": "3.5/4.0"
+  }, {
+    "institution": "Pune Institute of Computer Technology",
+    "major": "Computer Engineering",
+    "degree": "Bachelor",
+    "graduationDate": "2020",
+    "gpa": "9.72/10.00"
+  }],
+  "projectSections": [{
+      "title": "Machine Learning",
+      "projects": [{
+          "title": "ChatGPT Application for Assisting in Classification Problem",
+          "thumbnail": "https://1000logos.net/wp-content/uploads/2023/02/ChatGPT-Logo.png",
+          "link": "https://www.kaggle.com/code/adityam1311/chatgpt-writes-the-code",
+          "description": "Implemented a Jupyter Notebook using ChatGPT assistance for EDA and classification of Telco Customer Churn dataset."
+
+        },
+        {
+          "title": "Classification of Student Anxiety and Depression using HuggingFace",
+          "thumbnail": "https://1.bp.blogspot.com/-qQryqABhdhA/XcC3lJupTKI/AAAAAAAAAzA/MOYu3P_DFRsmNkpjD9j813_SOugPgoBLACLcBGAsYHQ/s1600/h1.png",
+          "link": "https://www.kaggle.com/code/adityam1311/testing-huggingface-text-classification",
+          "description": "Developed a HuggingFace deep learning pipeline to classify anxiety and depression among students from the textual dataset"
+
+        },
+        {
+          "title": "Detection of COVID-19 using X-Ray Images",
+          "thumbnail": "https://as1.ftcdn.net/v2/jpg/03/37/01/38/1000_F_337013875_b3FBUGGreAHaSRlXP1tQVAEaiAvK5JIX.jpg",
+          "link": "https://www.kaggle.com/code/adityam1311/covid-19-x-ray-images-eda-models/notebook",
+          "description": "Tested various machine learning and neural network models to classify the X Rays of Healthy vs Pneumonia (Corona) affected patients"
+        },
+        {
+          "title": "Parts of Speech Tagging for Hindi Language",
+          "thumbnail": "https://w7.pngwing.com/pngs/1006/325/png-transparent-hindi-india-language-malayalam-vocabulary-number-hindi-angle-text-logo.png",
+          "link": "https://github.com/AdityaMahaddalkar/Hindi_Language_POS_Tagger",
+          "description": "Created a Natural Language Processing application for tagging parts of speech from Hindi language."
+        }
+
+      ]
+    },
+    {
+      "title": "Backend",
+      "projects": [{
+        "title": "Genome Sequence Alignment",
+        "thumbnail": "https://github.com/AdityaMahaddalkar/genetic-similarity/raw/master/images/ssDNA-and-dsDNA.webp",
+        "link": "https://github.com/AdityaMahaddalkar/genetic-similarity",
+        "description": [
+          "Implemented a memory-optimized solution for calculating the similarity scores between various Single-Stranded DNA genome sequences",
+          "Compared runtime cost and memory requirement for un-optimized and optimized version of genetic matching algorithm",
+          "Proved Needleman–Wunsch algorithm is more effecient in terms of time and memory costs"
+        ]
+      }, {
+        "title": "Discord Bot",
+        "thumbnail": "https://github.com/AdityaMahaddalkar/DiscordBot/blob/master/images/m024t0255_b_discord_16oct22.jpg?raw=true",
+        "link": "https://github.com/AdityaMahaddalkar/DiscordBot",
+        "description": [
+          "Designed and developed a automated multipurpose command bot for Discord and integrated with multiple chat rooms on Discord server.",
+          "Another functionality of this bot is fetching article links everyday at 7 am from websites like NewYorker and ALDaily and creating a list of the same",
+          "The program will notify user on the discord server depending on the inventory prices discussed in the previous note. This is built on Discord Bot API which automates message passing through Discord channel."
+        ]
+      }, {
+        "title": "R-Meter",
+        "thumbnail": "https://github.com/AdityaMahaddalkar/DiscordBot/blob/master/images/m024t0255_b_discord_16oct22.jpg?raw=true",
+        "link": "https://github.com/AdityaMahaddalkar/r-meter",
+        "description": [
+          "A Rust application to monitor multiple API metrics, with support of various HTTP and HTTPS methods.",
+          "The application supports multiple API calls, multi-threaded processing and low-memory overheads so the results are as precise as possible."
+        ]
+      }]
+    },
+    {
+      "title": "FrontEnd",
+      "projects": [{
+          "title": "Job Aid for Ukranian Refugees",
+          "thumbnail": "https://gitlab.com/uploads/-/system/project/avatar/34430075/Logo_Bild_Only.png",
+          "link": "https://gitlab.com/jobaid/base",
+          "description": "A Progressive Web App (PWA) developed for Ukranian refugees to find job after they were displaced from their country due to the war."
+
+        },
+        {
+          "title": "Blogging With Django",
+          "thumbnail": "https://djangocentral.com/media/uploads/screely-1553824848299.png",
+          "link": "https://github.com/AdityaMahaddalkar/blogging_w_django",
+          "description": "A blogging website developed with HTML, CSS and Django which allows uses to post, read, like and comment on blogs"
+
+        }
+
+      ]
+    }
+  ],
+  "awards": [{
+    "title": "BMC Software Award for Best Achiever Second Year Student in Computer Engineering Department",
+    "date": "2017-2018",
+    "awarder": "BMC Software Inc.",
+    "description": "Awarded to the highest ranking student in the department of Computer Engineering in Pune Institute of Computer Technology."
+  }],
+  "hideDesignedBy": true
+}
